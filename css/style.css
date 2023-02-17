@@ -39,10 +39,23 @@ ul {
     display: block;
     position: fixed;
     left: 270px;
+    padding: 0 30px;
     top: 0;
     right: 0;
     z-index: 0;
     opacity: 1;
+}
+
+.padd-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    background: rebeccapurple;
+    margin: auto;
 }
 
 /* aside */
@@ -115,7 +128,7 @@ ul {
     top: 20px;
     border-radius: 5px;
     background: var(--bg-black-100);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -127,7 +140,8 @@ ul {
     display: inline-block;
     position: relative;
 }
-.aside .nav-toggler span::before{
+
+.aside .nav-toggler span::before {
     content: '';
     height: 2px;
     width: 18px;
@@ -136,7 +150,8 @@ ul {
     top: -6px;
     left: 0;
 }
-.aside .nav-toggler span::after{
+
+.aside .nav-toggler span::after {
     content: '';
     height: 2px;
     width: 18px;
@@ -170,4 +185,9 @@ ul {
 
 .aside .nav li a i {
     margin-right: 15px;
+}
+
+/* Home  */
+.home .home-img img {
+    height: 400px;
 }
