@@ -696,17 +696,6 @@ h3.my-profession {
   padding: 0 50px;
 }
 
-/* ESCRIPT ENSAYIS */
-.tagcloud{
-  display: inline-block;
-  letter-spacing: 1px;
-  font-size: 20px;
-}
-.tagcloud--item:hover{
-  color: #1854b4;
-}
-
-/* FIND SCRIP ENSAYIS */
 
 @media (max-width:1199px) {
   .aside {

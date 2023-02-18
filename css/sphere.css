@@ -1,0 +1,10 @@
+.tagcloud{
+  display: inline-block;
+  left: 75px;
+  top: -15px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.tagcloud--item:hover{
+  color: #1854b4;
+}
