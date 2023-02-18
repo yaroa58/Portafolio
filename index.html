@@ -115,7 +115,7 @@
                                     </div>
                                 </div>
                                 <div class="skills padd-15">
-                                    <div class="row">
+                                    <!-- <div class="row">
                                         <div class="skill-item padd-15">
                                             <h5>CSS</h5>
                                         </div>
@@ -137,7 +137,25 @@
                                         <div class="skill-item padd-15">
                                             <h5>Java</h5>
                                         </div>
-                                    </div>
+                                    </div> -->
+                                    <span class="sphere"></span>
+                                    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+
+                                    <script>
+                                        const Texts = [
+                                            'JavaScript', 'HTML', 'CSS','Java','MongoDB','Power BI','GIT','mySQL'
+                                        ];
+                                        var tagcloud = TagCloud('.sphere', Texts, {
+                                            radius: 120,
+                                            maxSpeed: 'fast',
+                                            iniSpeed: 'fast',
+                                            direction: 135,
+                                            keep: true
+                                        });
+
+                                        var color = '#000';
+                                        document.querySelector('.sphere').style.color = color;
+                                    </script>
 
                                 </div>
                             </div>
