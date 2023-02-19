@@ -2,7 +2,7 @@
 const Texts = ['JavaScript', 'HTML', 'CSS', 'Java',
     'MongoDB', 'Power BI', 'GIT', 'mySQL', 'REAC', 'Excel'];
 var tagcloud = TagCloud('.sphere', Texts, {
-    radius: 120,
+    radius: 130,
     maxSpeed: 'fast',
     iniSpeed: 'fast',
     direction: 135,
