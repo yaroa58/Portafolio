@@ -70,7 +70,7 @@ ul {
 
 .section .container {
   padding-top: 60px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 .section-tittle {
@@ -292,6 +292,8 @@ h3.hello span {
 h3.my-profession {
   font-size: 30px;
   margin: 15px 0;
+  padding-top: 35px;
+  padding-bottom: 35px;  
 }
 
 .typing {
