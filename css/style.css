@@ -7,13 +7,15 @@
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
 }
-body.dark{
+
+body.dark {
   --bg-black-900: #151515;
   --bg-black-100: #222222;
   --bg-black-50: #393939;
   --text-black-900: #ffffff;
   --text-black-700: #e9e9e9;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -68,7 +70,7 @@ ul {
 
 .section .container {
   padding-top: 60px;
-  padding-bottom: 70px;
+  /* padding-bottom: 70px; */
 }
 
 .section-tittle {
@@ -290,6 +292,8 @@ h3.hello span {
 h3.my-profession {
   font-size: 30px;
   margin: 15px 0;
+  padding-top: 35px;
+  padding-bottom: 35px;  
 }
 
 .typing {
@@ -694,6 +698,7 @@ h3.my-profession {
   padding: 0 50px;
 }
 
+
 @media (max-width:1199px) {
   .aside {
     left: -270px;
@@ -729,6 +734,7 @@ h3.my-profession {
 }
 
 @media (max-width:767px) {
+
   .contact .contact-form .col-6,
   .contact .contact-info-item,
   .portfolio .portfolio-item,
